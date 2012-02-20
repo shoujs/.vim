@@ -30,3 +30,5 @@ augroup vimrc
     au BufWinEnter * if &fdm == 'indent' | setlocal foldmethod=manual | endif
 augroup END
 
+let g:zencoding_curl_command = 'curl -s -L --connect-timeout 3'
+
